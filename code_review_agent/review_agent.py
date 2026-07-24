@@ -152,5 +152,4 @@ if __name__ == "__main__":
     with open(OUTPUT_FILE, "w") as f:
         f.write(markdown)
     print(f"Review written to {OUTPUT_FILE}")
-    print(json.dumps(result, indent=2))mkdir -p .github/workflows
-cloudshell edit .github/workflows/security_review.yml
+    print(json.dumps(result, indent=2))
